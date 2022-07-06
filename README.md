@@ -14,7 +14,7 @@ Example:
 ```go
 import (
 	"fmt"
-	"typ"
+	"github.com/inkognitro/typ"
 )
 
 id1 := typ.NewUuidV4()
