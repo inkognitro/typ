@@ -22,7 +22,7 @@ id2 := typ.UndefinableUuid{}
 
 // Try to convert an undefinable value to a defined one:
 if _, ok := id2.ToUuid(); !ok {
-    fmt.Println("could not convert id2 to uuid, because the underlying value is not undefined")
+    fmt.Println("could not convert id2 to uuid, because the underlying value is undefined")
 }
 
 // Comparison between two values:
